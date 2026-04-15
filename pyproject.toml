@@ -1,0 +1,17 @@
+[project]
+name = "stretch-sense-glove-research"
+version = "0.1.0"
+description = "Research tooling for StretchSense glove experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "ruff>=0.11.7",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
